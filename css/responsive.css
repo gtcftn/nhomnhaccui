@@ -38,7 +38,6 @@
     }
     .member-item{
         margin-top: 20px;
-        margin-left: 60px;
     }
     .member-img{
         width: auto;
@@ -46,4 +45,6 @@
     .modal-body{
         width: 400px;
     }
+    .place-item{
+        margin-top: 20px;
 }
