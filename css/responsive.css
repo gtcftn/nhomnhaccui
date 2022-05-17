@@ -1,0 +1,51 @@
+@media (min-width: 740px){
+    .menu-nav-bar{
+        display: none;
+    }
+}
+@media (max-width: 739px){
+    .search{
+        display: none;
+    }
+    #header{
+        display: block;
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li .mb{
+        width: 100%;
+    }
+    #nav > li > a{
+       line-height: 55px;
+    }
+    .subnav{
+        width: 100%;
+        position: inherit;
+        background-color: #333;
+    }
+    .subnav li a{
+       padding: 0px 35px;
+       line-height: 50px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .content-section{
+        width: auto;
+        padding: 60px 15px;
+    }
+    .member-item{
+        margin-top: 20px;
+    }
+    .member-img{
+        width: auto;
+    }
+    .modal-body{
+        width: 400px;
+    }
+    .place-item{
+        margin-top: 20px;
+    }
+}
